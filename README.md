@@ -16,6 +16,8 @@ https://hendown.netlify.app/
 async function Site_name(url){
   try{
     //code here
+    
+    return {title:title,url_Image:url_Image,num_pages:num_pages}
   }
   catch(err){
     return err
