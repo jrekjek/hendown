@@ -17,6 +17,9 @@ async function Site_name(url){
   try{
     //code here
     
+    //title=string
+    //url_Image=array of link image
+    //num_pages=url_Image.length
     return {title:title,url_Image:url_Image,num_pages:num_pages}
   }
   catch(err){
